@@ -23,10 +23,10 @@ const User = sequelize.define('user', {
         type : Sequelize.STRING,
         allowNull : false
     }
-} ,{
-    defaultScope: {
-        attributes: { exclude: ['password'] }
-    }
+//} ,{
+   // defaultScope: {
+        //attributes: { exclude: ['password'] }
+   // }
 })
 
 module.exports = User;
